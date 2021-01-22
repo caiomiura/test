@@ -1,0 +1,1047 @@
+{
+  "uid" : "9ad29c67bb2ea026",
+  "name" : "Troca | {\"testName\":\"TC016 - Cta Normal c/ Master x Master\",\"originAcc\":\"1795\",\"finalAcc\":\"24345\",\"stock\":\"TOTS3\",\"side\":\"Compra\",\"line\":\"0\",\"undo\":\"Yes\",\"dma\":\"DmaY\",\"colo\":\"ColoN\"}",
+  "fullName" : "Troca:.Troca | {\"testName\":\"TC016 - Cta Normal c/ Master x Master\",\"originAcc\":\"1795\",\"finalAcc\":\"24345\",\"stock\":\"TOTS3\",\"side\":\"Compra\",\"line\":\"0\",\"undo\":\"Yes\",\"dma\":\"DmaY\",\"colo\":\"ColoN\"}",
+  "historyId" : "70aa7e54e673ce5c084df3298ec4983a",
+  "time" : {
+    "start" : 1611345000014,
+    "stop" : 1611345157990,
+    "duration" : 157976
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "",
+    "statusTrace" : "undefined",
+    "steps" : [ {
+      "name" : "Object: openB3OrdersPage ",
+      "time" : {
+        "start" : 1611345000036,
+        "stop" : 1611345020828,
+        "duration" : 20792
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I am on page \"b3-orders?market=BOV\"",
+        "time" : {
+          "start" : 1611345000036,
+          "stop" : 1611345010826,
+          "duration" : 10790
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 10",
+        "time" : {
+          "start" : 1611345010826,
+          "stop" : 1611345020828,
+          "duration" : 10002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: searchTerm ",
+      "time" : {
+        "start" : 1611345020828,
+        "stop" : 1611345057562,
+        "duration" : 36734
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait for element \".tag-text-input\", 20",
+        "time" : {
+          "start" : 1611345020828,
+          "stop" : 1611345023310,
+          "duration" : 2482
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I fill field \".tag-text-input\", \"1795\"",
+        "time" : {
+          "start" : 1611345023310,
+          "stop" : 1611345023580,
+          "duration" : 270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345023580,
+          "stop" : 1611345028582,
+          "duration" : 5002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345028582,
+          "stop" : 1611345028749,
+          "duration" : 167
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".b3-orders-view-grids-area\", 60",
+        "time" : {
+          "start" : 1611345028749,
+          "stop" : 1611345029845,
+          "duration" : 1096
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345029845,
+          "stop" : 1611345034846,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".tag-text-input\", 20",
+        "time" : {
+          "start" : 1611345034846,
+          "stop" : 1611345034851,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I fill field \".tag-text-input\", \"TOTS3\"",
+        "time" : {
+          "start" : 1611345034851,
+          "stop" : 1611345035150,
+          "duration" : 299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345035150,
+          "stop" : 1611345040154,
+          "duration" : 5004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345040154,
+          "stop" : 1611345040303,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".b3-orders-view-grids-area\", 60",
+        "time" : {
+          "start" : 1611345040303,
+          "stop" : 1611345041205,
+          "duration" : 902
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345041205,
+          "stop" : 1611345046210,
+          "duration" : 5005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".tag-text-input\", 20",
+        "time" : {
+          "start" : 1611345046210,
+          "stop" : 1611345046215,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I fill field \".tag-text-input\", \"Compra\"",
+        "time" : {
+          "start" : 1611345046215,
+          "stop" : 1611345046565,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345046565,
+          "stop" : 1611345051566,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345051566,
+          "stop" : 1611345051711,
+          "duration" : 145
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".b3-orders-view-grids-area\", 60",
+        "time" : {
+          "start" : 1611345051711,
+          "stop" : 1611345052559,
+          "duration" : 848
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345052559,
+          "stop" : 1611345057562,
+          "duration" : 5003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 18,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: clickCheckBoxEnableDma ",
+      "time" : {
+        "start" : 1611345057562,
+        "stop" : 1611345073069,
+        "duration" : 15507
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click //*[@id=\"page-wrap-no-padding\"]/div/div/div[2]/div/span[7]/span",
+        "time" : {
+          "start" : 1611345057562,
+          "stop" : 1611345057736,
+          "duration" : 174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 15",
+        "time" : {
+          "start" : 1611345057736,
+          "stop" : 1611345072743,
+          "duration" : 15007
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I save screenshot \"dma.jpg\"",
+        "time" : {
+          "start" : 1611345072743,
+          "stop" : 1611345073069,
+          "duration" : 326
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: clickCheckBoxEnableColo ",
+      "time" : {
+        "start" : 1611345073069,
+        "stop" : 1611345088565,
+        "duration" : 15496
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click //*[@id=\"page-wrap-no-padding\"]/div/div/div[2]/div/span[8]/span",
+        "time" : {
+          "start" : 1611345073069,
+          "stop" : 1611345073242,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 15",
+        "time" : {
+          "start" : 1611345073242,
+          "stop" : 1611345088244,
+          "duration" : 15002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I save screenshot \"colo.jpg\"",
+        "time" : {
+          "start" : 1611345088244,
+          "stop" : 1611345088565,
+          "duration" : 321
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: clickAccountColumnOrdersGrid ",
+      "time" : {
+        "start" : 1611345088565,
+        "stop" : 1611345088713,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click #ag-grid-b3-orders div[row-id='0'] div[col-id='accountId']",
+        "time" : {
+          "start" : 1611345088565,
+          "stop" : 1611345088713,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: openAccountChangePopup ",
+      "time" : {
+        "start" : 1611345088713,
+        "stop" : 1611345093887,
+        "duration" : 5174
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' ag-menu-option ')][contains(., 'Troca')]}",
+        "time" : {
+          "start" : 1611345088713,
+          "stop" : 1611345088883,
+          "duration" : 170
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345088883,
+          "stop" : 1611345093887,
+          "duration" : 5004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: fillDestinationAccountAndSubmitAccountChange ",
+      "time" : {
+        "start" : 1611345093887,
+        "stop" : 1611345109474,
+        "duration" : 15587
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I fill field \"#modal-autocomplete-new-account\", \"24345\"",
+        "time" : {
+          "start" : 1611345093887,
+          "stop" : 1611345094180,
+          "duration" : 293
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 10",
+        "time" : {
+          "start" : 1611345094180,
+          "stop" : 1611345104180,
+          "duration" : 10000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345104180,
+          "stop" : 1611345104314,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345104314,
+          "stop" : 1611345104471,
+          "duration" : 157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345104472,
+          "stop" : 1611345109474,
+          "duration" : 5002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: clearSearchBar ",
+      "time" : {
+        "start" : 1611345109474,
+        "stop" : 1611345109605,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click .tag-input-clear-all-button",
+        "time" : {
+          "start" : 1611345109474,
+          "stop" : 1611345109605,
+          "duration" : 131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: searchTerm ",
+      "time" : {
+        "start" : 1611345109605,
+        "stop" : 1611345142980,
+        "duration" : 33375
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait for element \".tag-text-input\", 20",
+        "time" : {
+          "start" : 1611345109605,
+          "stop" : 1611345109610,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I fill field \".tag-text-input\", \"24345\"",
+        "time" : {
+          "start" : 1611345109610,
+          "stop" : 1611345109882,
+          "duration" : 272
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345109882,
+          "stop" : 1611345114884,
+          "duration" : 5002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345114884,
+          "stop" : 1611345115027,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".b3-orders-view-grids-area\", 60",
+        "time" : {
+          "start" : 1611345115027,
+          "stop" : 1611345116035,
+          "duration" : 1008
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345116035,
+          "stop" : 1611345121036,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".tag-text-input\", 20",
+        "time" : {
+          "start" : 1611345121036,
+          "stop" : 1611345121041,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I fill field \".tag-text-input\", \"TOTS3\"",
+        "time" : {
+          "start" : 1611345121041,
+          "stop" : 1611345121334,
+          "duration" : 293
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345121334,
+          "stop" : 1611345126335,
+          "duration" : 5001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345126335,
+          "stop" : 1611345126487,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".b3-orders-view-grids-area\", 60",
+        "time" : {
+          "start" : 1611345126487,
+          "stop" : 1611345126986,
+          "duration" : 499
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345126986,
+          "stop" : 1611345131991,
+          "duration" : 5005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".tag-text-input\", 20",
+        "time" : {
+          "start" : 1611345131991,
+          "stop" : 1611345131996,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I fill field \".tag-text-input\", \"Compra\"",
+        "time" : {
+          "start" : 1611345131996,
+          "stop" : 1611345132320,
+          "duration" : 324
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345132320,
+          "stop" : 1611345137326,
+          "duration" : 5006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I press key \"Enter\"",
+        "time" : {
+          "start" : 1611345137326,
+          "stop" : 1611345137466,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait for element \".b3-orders-view-grids-area\", 60",
+        "time" : {
+          "start" : 1611345137466,
+          "stop" : 1611345137978,
+          "duration" : 512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1611345137978,
+          "stop" : 1611345142980,
+          "duration" : 5002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 18,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Object: validateChange ",
+      "time" : {
+        "start" : 1611345142980,
+        "stop" : 1611345157990,
+        "duration" : 15010
+      },
+      "status" : "failed",
+      "statusMessage" : "undefined",
+      "steps" : [ {
+        "name" : "I wait 15",
+        "time" : {
+          "start" : 1611345142980,
+          "stop" : 1611345157985,
+          "duration" : 15005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "I see \"TOTS3 C de 20/01/2021 1795 para 24345 realizada com sucesso.\"",
+        "time" : {
+          "start" : 1611345157985,
+          "stop" : 1611345157990,
+          "duration" : 5
+        },
+        "status" : "failed",
+        "statusMessage" : "undefined",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e82169601a273b9c",
+      "name" : "Last Seen Screenshot",
+      "source" : "e82169601a273b9c.png",
+      "type" : "image/png",
+      "size" : 96301
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 65,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Troca:"
+  }, {
+    "name" : "testClass",
+    "value" : "Troca:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Troca | {\"testName\":\"TC016 - Cta Normal c/ Master x Master\",\"originAcc\":\"1795\",\"finalAcc\":\"24345\",\"stock\":\"TOTS3\",\"side\":\"Compra\",\"line\":\"0\",\"undo\":\"Yes\",\"dma\":\"DmaY\",\"colo\":\"ColoN\"}"
+  }, {
+    "name" : "package",
+    "value" : "Troca:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ad29c67bb2ea026.json",
+  "parameterValues" : [ ]
+}

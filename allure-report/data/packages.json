@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Troca:",
+    "children" : [ {
+      "name" : "Troca | {\"testName\":\"TC016 - Cta Normal c/ Master x Master\",\"originAcc\":\"1795\",\"finalAcc\":\"24345\",\"stock\":\"TOTS3\",\"side\":\"Compra\",\"line\":\"0\",\"undo\":\"Yes\",\"dma\":\"DmaY\",\"colo\":\"ColoN\"}",
+      "uid" : "9ad29c67bb2ea026",
+      "parentUid" : "49cce74386ade7d1c7a6be856cfc54f6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611345000014,
+        "stop" : 1611345157990,
+        "duration" : 157976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "49cce74386ade7d1c7a6be856cfc54f6"
+  } ]
+}
