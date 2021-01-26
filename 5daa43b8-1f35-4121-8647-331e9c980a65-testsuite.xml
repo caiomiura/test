@@ -1,0 +1,422 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611685830624' stop='1611685995638'>
+    <name>Troca:</name>
+    <title>Troca:</title>
+    <test-cases>
+        <test-case start='1611685831285' status='passed' stop='1611685995510'>
+            <name>Troca | {"testName":"TC016 - Cta Normal c/ Master x Master","originAcc":"1795","finalAcc":"24345","stock":"TOTS3","side":"Compra","line":"0","undo":"Yes","dma":"DmaY","colo":"ColoN"}</name>
+            <title>Troca | {"testName":"TC016 - Cta Normal c/ Master x Master","originAcc":"1795","finalAcc":"24345","stock":"TOTS3","side":"Compra","line":"0","undo":"Yes","dma":"DmaY","colo":"ColoN"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1611685831310' status='passed' stop='1611685845014'>
+                    <name>Object: openB3OrdersPage </name>
+                    <title>Object: openB3OrdersPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685831310' status='passed' stop='1611685835012'>
+                            <name>I am on page "b3-orders?market=BOV"</name>
+                            <title>I am on page "b3-orders?market=BOV"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685835012' status='passed' stop='1611685845014'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685845014' status='passed' stop='1611685885204'>
+                    <name>Object: searchTerm </name>
+                    <title>Object: searchTerm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685845014' status='passed' stop='1611685850959'>
+                            <name>I wait for element ".tag-text-input", 20</name>
+                            <title>I wait for element ".tag-text-input", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685850959' status='passed' stop='1611685851231'>
+                            <name>I fill field ".tag-text-input", "1795"</name>
+                            <title>I fill field ".tag-text-input", "1795"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685851231' status='passed' stop='1611685856233'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685856233' status='passed' stop='1611685856399'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685856399' status='passed' stop='1611685857355'>
+                            <name>I wait for element ".b3-orders-view-grids-area", 60</name>
+                            <title>I wait for element ".b3-orders-view-grids-area", 60</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685857356' status='passed' stop='1611685862361'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685862361' status='passed' stop='1611685862365'>
+                            <name>I wait for element ".tag-text-input", 20</name>
+                            <title>I wait for element ".tag-text-input", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685862365' status='passed' stop='1611685862658'>
+                            <name>I fill field ".tag-text-input", "TOTS3"</name>
+                            <title>I fill field ".tag-text-input", "TOTS3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685862658' status='passed' stop='1611685867659'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685867659' status='passed' stop='1611685867814'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685867814' status='passed' stop='1611685868703'>
+                            <name>I wait for element ".b3-orders-view-grids-area", 60</name>
+                            <title>I wait for element ".b3-orders-view-grids-area", 60</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685868703' status='passed' stop='1611685873706'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685873706' status='passed' stop='1611685873711'>
+                            <name>I wait for element ".tag-text-input", 20</name>
+                            <title>I wait for element ".tag-text-input", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685873711' status='passed' stop='1611685874054'>
+                            <name>I fill field ".tag-text-input", "Compra"</name>
+                            <title>I fill field ".tag-text-input", "Compra"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685874054' status='passed' stop='1611685879057'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685879057' status='passed' stop='1611685879211'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685879211' status='passed' stop='1611685880200'>
+                            <name>I wait for element ".b3-orders-view-grids-area", 60</name>
+                            <title>I wait for element ".b3-orders-view-grids-area", 60</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685880200' status='passed' stop='1611685885204'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685885204' status='passed' stop='1611685900674'>
+                    <name>Object: clickCheckBoxEnableDma </name>
+                    <title>Object: clickCheckBoxEnableDma </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685885204' status='passed' stop='1611685885372'>
+                            <name>I click //*[@id="page-wrap-no-padding"]/div/div/div[2]/div/span[7]/span</name>
+                            <title>I click //*[@id="page-wrap-no-padding"]/div/div/div[2]/div/span[7]/span</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685885372' status='passed' stop='1611685900381'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685900381' status='passed' stop='1611685900674'>
+                            <name>I save screenshot "dma.jpg"</name>
+                            <title>I save screenshot "dma.jpg"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685900674' status='passed' stop='1611685916139'>
+                    <name>Object: clickCheckBoxEnableColo </name>
+                    <title>Object: clickCheckBoxEnableColo </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685900674' status='passed' stop='1611685900850'>
+                            <name>I click //*[@id="page-wrap-no-padding"]/div/div/div[2]/div/span[8]/span</name>
+                            <title>I click //*[@id="page-wrap-no-padding"]/div/div/div[2]/div/span[8]/span</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685900850' status='passed' stop='1611685915851'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685915851' status='passed' stop='1611685916139'>
+                            <name>I save screenshot "colo.jpg"</name>
+                            <title>I save screenshot "colo.jpg"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685916139' status='passed' stop='1611685916277'>
+                    <name>Object: clickAccountColumnOrdersGrid </name>
+                    <title>Object: clickAccountColumnOrdersGrid </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685916139' status='passed' stop='1611685916277'>
+                            <name>I click #ag-grid-b3-orders div[row-id='0'] div[col-id='accountId']</name>
+                            <title>I click #ag-grid-b3-orders div[row-id='0'] div[col-id='accountId']</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685916277' status='passed' stop='1611685921455'>
+                    <name>Object: openAccountChangePopup </name>
+                    <title>Object: openAccountChangePopup </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685916277' status='passed' stop='1611685916453'>
+                            <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' ag-menu-option ')][contains(., 'Troca')]}</name>
+                            <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' ag-menu-option ')][contains(., 'Troca')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685916453' status='passed' stop='1611685921455'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685921455' status='passed' stop='1611685937051'>
+                    <name>Object: fillDestinationAccountAndSubmitAccountChange </name>
+                    <title>Object: fillDestinationAccountAndSubmitAccountChange </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685921455' status='passed' stop='1611685921747'>
+                            <name>I fill field "#modal-autocomplete-new-account", "24345"</name>
+                            <title>I fill field "#modal-autocomplete-new-account", "24345"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685921747' status='passed' stop='1611685931747'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685931747' status='passed' stop='1611685931888'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685931888' status='passed' stop='1611685932047'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685932047' status='passed' stop='1611685937051'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685937051' status='passed' stop='1611685937186'>
+                    <name>Object: clearSearchBar </name>
+                    <title>Object: clearSearchBar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685937051' status='passed' stop='1611685937186'>
+                            <name>I click .tag-input-clear-all-button</name>
+                            <title>I click .tag-input-clear-all-button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685937186' status='passed' stop='1611685970500'>
+                    <name>Object: searchTerm </name>
+                    <title>Object: searchTerm </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685937186' status='passed' stop='1611685937191'>
+                            <name>I wait for element ".tag-text-input", 20</name>
+                            <title>I wait for element ".tag-text-input", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685937191' status='passed' stop='1611685937470'>
+                            <name>I fill field ".tag-text-input", "24345"</name>
+                            <title>I fill field ".tag-text-input", "24345"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685937470' status='passed' stop='1611685942475'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685942475' status='passed' stop='1611685942634'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685942634' status='passed' stop='1611685943551'>
+                            <name>I wait for element ".b3-orders-view-grids-area", 60</name>
+                            <title>I wait for element ".b3-orders-view-grids-area", 60</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685943552' status='passed' stop='1611685948554'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685948554' status='passed' stop='1611685948559'>
+                            <name>I wait for element ".tag-text-input", 20</name>
+                            <title>I wait for element ".tag-text-input", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685948559' status='passed' stop='1611685948848'>
+                            <name>I fill field ".tag-text-input", "TOTS3"</name>
+                            <title>I fill field ".tag-text-input", "TOTS3"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685948848' status='passed' stop='1611685953852'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685953852' status='passed' stop='1611685954002'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685954002' status='passed' stop='1611685954541'>
+                            <name>I wait for element ".b3-orders-view-grids-area", 60</name>
+                            <title>I wait for element ".b3-orders-view-grids-area", 60</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685954541' status='passed' stop='1611685959544'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685959544' status='passed' stop='1611685959549'>
+                            <name>I wait for element ".tag-text-input", 20</name>
+                            <title>I wait for element ".tag-text-input", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685959549' status='passed' stop='1611685959885'>
+                            <name>I fill field ".tag-text-input", "Compra"</name>
+                            <title>I fill field ".tag-text-input", "Compra"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685959885' status='passed' stop='1611685964891'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685964891' status='passed' stop='1611685965039'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685965039' status='passed' stop='1611685965496'>
+                            <name>I wait for element ".b3-orders-view-grids-area", 60</name>
+                            <title>I wait for element ".b3-orders-view-grids-area", 60</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685965496' status='passed' stop='1611685970500'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1611685970500' status='passed' stop='1611685995510'>
+                    <name>Object: validateChange </name>
+                    <title>Object: validateChange </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1611685970500' status='passed' stop='1611685985501'>
+                            <name>I wait 15</name>
+                            <title>I wait 15</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685985501' status='passed' stop='1611685985506'>
+                            <name>I see "TOTS3 C de 26/01/2021 1795 para 24345 realizada com sucesso."</name>
+                            <title>I see "TOTS3 C de 26/01/2021 1795 para 24345 realizada com sucesso."</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1611685985506' status='passed' stop='1611685995510'>
+                            <name>I wait 10</name>
+                            <title>I wait 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
